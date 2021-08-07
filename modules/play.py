@@ -176,9 +176,9 @@ def r_ply(type_):
                 InlineKeyboardButton("⏭", "skip"),
             ],
             [
-                InlineKeyboardButton("Playlist 📖", "playlist"),
+                InlineKeyboardButton("Pʟᴀʏʟɪsᴛ 📖", "playlist"),
             ],
-            [InlineKeyboardButton("❌ Close", "cls")],
+            [InlineKeyboardButton("❌ Cʟᴏsᴇ", "cls")],
         ]
     )
     return mar
@@ -393,9 +393,9 @@ async def m_cb(b, cb):
                     InlineKeyboardButton("⏭", "skip"),
                 ],
                 [
-                    InlineKeyboardButton("Playlist 📖", "playlist"),
+                    InlineKeyboardButton("Pʟᴀʏʟɪsᴛ 📖", "playlist"),
                 ],
-                [InlineKeyboardButton("❌ Close", "cls")],
+                [InlineKeyboardButton("❌ Cʟᴏsᴇ", "cls")],
             ]
         )
         await cb.message.edit(stats, reply_markup=marr)
@@ -440,7 +440,7 @@ async def play(_, message: Message):
     global useer
     if message.chat.id in DISABLED_GROUPS:
         return    
-    lel = await message.reply("🔄 **Processing**")
+    lel = await message.reply("🔄 **Pʀᴏᴄᴇssɪɴɢ**")
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
 
@@ -472,7 +472,7 @@ async def play(_, message: Message):
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "I joined this group for playing music in VC"
+                        message.chat.id, "Cᴏʙʀᴀ Mᴜsɪᴄ Bᴏᴛ Jᴏɪɴᴇᴅ Tʜɪs Gʀᴏᴜᴘ Fᴏʀ Pʟᴀʏɪɴɢ Nᴏ Lᴀɢ Aɴᴅ Fᴀsᴛ Mᴜsɪᴄ Iɴ Vᴄ"
                     )
                     await lel.edit(
                         "<b>helper userbot joined your chat</b>",
@@ -495,7 +495,7 @@ async def play(_, message: Message):
         )
         return
     text_links=None
-    await lel.edit("🔎 **Finding**")
+    await lel.edit("🔎 **Fɪɴᴅɪɴɢ**")
     if message.reply_to_message:
         entities = []
         toxt = message.reply_to_message.text or message.reply_to_message.caption
@@ -548,7 +548,7 @@ async def play(_, message: Message):
         )
     elif urls:
         query = toxt
-        await lel.edit("🎵 **Processing**")
+        await lel.edit("🎵 **Pʀᴏᴄᴇssɪɴɢ**")
         ydl_opts = {"format": "bestaudio[ext=m4a]"}
         try:
             results = YoutubeSearch(query, max_results=1).to_dict()
