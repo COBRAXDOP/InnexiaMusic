@@ -9,24 +9,24 @@ from helpers.filters import other_filters2
 async def start(_, message: Message):
     await message.reply_text(
         f"""**Hey, I'm {bn} 🎀
-I Cᴀɴ Pʟᴀʏ Mᴜsɪᴄ Iɴ Yᴏᴜʀ Sᴇxʏ Gʀᴏᴜᴩ Vᴏɪᴄᴇ Cʜᴀᴛ. Dᴇᴠᴇʟᴏᴩᴇᴅ Bʏ [丂ﾑﾶﾶY](https://t.me/useIes).
+I Cᴀɴ Pʟᴀʏ Mᴜsɪᴄ Iɴ Yᴏᴜʀ Sᴇxʏ Gʀᴏᴜᴩ Vᴏɪᴄᴇ Cʜᴀᴛ. Dᴇᴠᴇʟᴏᴩᴇᴅ Bʏ [ƧΣXY BӨY](https://t.me/Xd_Lif).
 Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Aɴᴅ Pʟᴀʏ Mᴜsɪᴄ Fʀᴇᴇʟʏ!**
         """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "Oᴡɴᴇʀ😘", url="t.me/useIes")
+                        "Lᴇᴀɢɴᴅ🦋", url="t.me/aish_jaan_0")
                   ],[
                     InlineKeyboardButton(
-                        "Sᴜᴩᴩᴏʀᴛ👿", url="https://t.me/SiderzChat"
+                        "Mᴜsɪᴄ 👿", url="https://t.me/LOVExWORD"
                     ),
                     InlineKeyboardButton(
-                        "Cʜᴀɴɴᴇʟ", url="https://t.me/SiderzBot"
+                        "Cʜᴀɴɴᴇʟ", url="https://t.me/LXW_UPDATE"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "➕ Gʀᴏᴜᴩ Mᴇ ᴅᴀʟᴅᴏ➕", url="https://t.me/innexiaMusicRoBot?startgroup=true"
+                        "➕ Kᴀʀʟᴏ Aʙʙ Aᴅᴅ ➕", url="https://t.me/innexiaMusicRoBot?startgroup=true"
                     )]
             ]
         ),
@@ -40,7 +40,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊Uᴩᴅᴀᴛᴇs", url="https://t.me/SiderzChat")
+                        "👻Uᴩᴅᴀᴛᴇs", url="https://t.me/LXW_UPDATE")
                 ]
             ]
         )
