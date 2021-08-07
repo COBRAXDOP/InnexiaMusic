@@ -16,7 +16,7 @@ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Aɴᴅ Pʟᴀʏ Mᴜsɪᴄ Fʀᴇᴇʟ�
             [
                 [
                     InlineKeyboardButton(
-                        "Oᴡɴᴇʀ😘", url="t.me/useIes")
+                        "Oᴡɴᴇʀ", url="t.me/useIes")
                   ],[
                     InlineKeyboardButton(
                         "Sᴜᴩᴩᴏʀᴛ👿", url="https://t.me/SiderzChat"
