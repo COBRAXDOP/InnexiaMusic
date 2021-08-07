@@ -8,21 +8,21 @@ from helpers.filters import other_filters2
 @Client.on_message(other_filters2)
 async def start(_, message: Message):
     await message.reply_text(
-        f"""**Hey, I'm {bn} 🎀
-I Cᴀɴ Pʟᴀʏ Mᴜsɪᴄ Iɴ Yᴏᴜʀ Sᴇxʏ Gʀᴏᴜᴩ Vᴏɪᴄᴇ Cʜᴀᴛ. Dᴇᴠᴇʟᴏᴩᴇᴅ Bʏ [丂ﾑﾶﾶY](https://t.me/useIes).
+        f"""**Hey, I'm {bn} 🔥⚡
+I Cᴀɴ Pʟᴀʏ Mᴜsɪᴄ Iɴ Yᴏᴜʀ Sᴇxʏ Gʀᴏᴜᴩ Vᴏɪᴄᴇ Cʜᴀᴛ. Dᴇᴠᴇʟᴏᴩᴇᴅ Bʏ [ӾĐƇƠƁƦƛ](https://t.me/Xd_Lif).
 Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Aɴᴅ Pʟᴀʏ Mᴜsɪᴄ Fʀᴇᴇʟʏ!**
         """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "Oᴡɴᴇʀ", url="t.me/useIes")
+                        "ԼЄƓЄƝƊ✨", url="t.me/aish_jaan_0")
                   ],[
                     InlineKeyboardButton(
-                        "Sᴜᴩᴩᴏʀᴛ👿", url="https://t.me/SiderzChat"
+                        "Sᴜᴩᴩᴏʀᴛ🦋", url="https://t.me/LOVExWORD"
                     ),
                     InlineKeyboardButton(
-                        "Cʜᴀɴɴᴇʟ", url="https://t.me/SiderzBot"
+                        "Cʜᴀɴɴᴇʟ🔥", url="https://t.me/LXW_UPDATE"
                     )
                 ],[ 
                     InlineKeyboardButton(
@@ -40,7 +40,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊Uᴩᴅᴀᴛᴇs", url="https://t.me/SiderzChat")
+                        "🥀Uᴩᴅᴀᴛᴇs", url="https://t.me/LXW_UPDATE")
                 ]
             ]
         )
